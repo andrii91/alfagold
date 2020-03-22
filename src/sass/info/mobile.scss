@@ -1,0 +1,290 @@
+& {
+  .nav {
+    background-color: #ffbe22;
+  }
+
+  .nav .logo {
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+
+  .why-items {
+    display: block;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .menu {
+    display: none;
+    margin: 0;
+
+    li {
+      text-align: center;
+      margin-bottom: 20px;
+      display: block;
+
+      a {
+        display: block;
+
+        &.phone {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #nav-icon {
+    display: block;
+    margin-top: -3px;
+  }
+
+  header,
+  main,
+  footer {
+    overflow: hidden;
+  }
+
+  .head-item {
+    text-align: center;
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1 {
+      font-size: 30px;
+      margin-bottom: 25px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 26px;
+    }
+  }
+
+  .whom-form .bottom span {
+    margin-right: 0;
+  }
+
+  .phone-mob {
+    color: #000000;
+    font-family: "Museo Sans Cyrl -700";
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+    margin-bottom: 7px;
+  }
+
+  .head-img {
+    margin-top: 35px;
+  }
+
+  .h2-title {
+    font-size: 30px;
+  }
+
+  .section_1,
+  .why,
+  .whom,
+  .about,
+  .services,
+  .advantages,
+  .reviews {
+    padding: 58px 0;
+
+  }
+
+  .lg-none {
+    display: block;
+  }
+
+  .xs-none {
+    display: none;
+  }
+
+  .section_1-item,
+  .section_1-item.right {
+    padding: 30px 30px 0;
+    text-align: center;
+    margin-bottom: 0;
+
+    span {
+      display: inline-block;
+    }
+  }
+
+  .slick-dots {
+    margin-top: 20px;
+  }
+
+  .section_1-img {
+    margin-top: 30px;
+    min-height: inherit;
+
+    img {
+      position: static;
+      transform: none;
+    }
+  }
+
+  .section_1-item_bottom p {
+    font-size: 22px;
+  }
+
+  br {
+    display: none;
+  }
+
+  .h2-subtitle {
+    margin-bottom: 25px;
+    font-size: 18px;
+  }
+
+  .why-items .item {
+    padding: 45px 15px 35px;
+  }
+
+  .why-items .item.alfagold {
+    margin-top: 45px;
+  }
+
+  .whom-item {
+    min-height: inherit;
+  }
+
+  .whom-form form label {
+    margin-right: 0;
+    margin-bottom: 19px;
+  }
+
+  .whom-form form,
+  .whom-form .subtitle,
+  .whom-form .title {
+    padding: 0 60px;
+  }
+
+  .whom-form .bottom {
+    margin-top: 40px;
+  }
+
+  .advantages-items .item {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    border: 1px solid #d9d9d9 !important;
+    padding: 44px 30px 45px;
+    border-radius: 0 !important;
+    margin-bottom: 0;
+  }
+
+  .services {
+    padding-bottom: 0;
+  }
+
+  .advantages-items .item .img img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .slick-dots {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .advantages-item_bottom {
+    margin-top: 58px;
+  }
+
+  .advantages-item_bottom .title {
+    font-size: 30px;
+    max-width: 370px;
+  }
+
+  .advantages-item_bottom .blockquote {
+    font-size: 19px;
+    margin-top: 40px;
+  }
+
+  .reviews-tab li a {
+    font-size: 16px;
+  }
+
+  .fancybox-slide {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .text-carousel {
+    padding: 0;
+  }
+
+  .faq {
+    padding: 60px 0;
+  }
+
+  .faq-item .title {
+    font-size: 20px;
+  }
+
+  .footer {
+    padding: 60px 0;
+    text-align: center;
+
+    .nav {
+      margin-bottom: 40px;
+      .logo {
+        margin-bottom: 30px;
+      }
+      .menu {
+        display: block !important;
+
+        li {
+          a {
+            display: none;
+
+            &.phone,
+            &.call-btn {
+              display: block;
+              margin-left: 0;
+            }
+
+            &.call-btn {
+              width: 176px;
+              padding: 11px 16px;
+              margin-left: auto;
+              margin-right: auto;
+            }
+          }
+        }
+      }
+    }
+    .footer-list {
+      display: block;
+      li {
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  .rezart-logo {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer hr {
+    margin-bottom: 30px;
+  }
+  .container {
+    max-width: 480px !important;
+    
+  }
+  .ss-img {
+    img {
+       margin-left: 0;
+    }
+  }
+}
